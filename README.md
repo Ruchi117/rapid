@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RapidResQ
 
 RapidResQ contains a Vite/React dispatch dashboard and a separate Flask/SQLite demo application. The public Vercel deployment runs the Vite dashboard; it does not call the Flask app.
@@ -41,3 +42,6 @@ npm run build
 ## Deploy to Vercel
 
 The included `vercel.json` builds and serves the Vite dashboard (`npm run build`, output `dist`). No secrets or environment variables are needed. This does not deploy the Flask server. A multi-operator service needs a separately deployed Flask API and durable database; configure and authorize those services before relying on cross-device or long-term server-side history. No paid storage is configured.
+=======
+# rapid
+>>>>>>> 79887456dac5c2dcb5fbbcc146a3297c34c56ec8
